@@ -1,13 +1,11 @@
-// script.js
-// Add event listener to the button
+// Add event listener to the call now button
 document.querySelector('button').addEventListener('click', () => {
-    // Add functionality to the button click
-    console.log('Button clicked!');
+  // Add functionality to the call now button
+  console.log('Call now button clicked!');
 });
 
-// Add functionality to the contact form
-document.querySelector('form').addEventListener('submit', (e) => {
-    e.preventDefault();
-    // Add form submission logic here
-    console.log('Form submitted!');
+// Add event listener to the message on WhatsApp button
+document.querySelectorAll('button')[1].addEventListener('click', () => {
+  // Add functionality to the message on WhatsApp button
+  console.log('Message on WhatsApp button clicked!');
 });
